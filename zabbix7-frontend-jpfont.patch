@@ -1,0 +1,20 @@
+--- defines.inc.php.orig	2024-12-19 13:45:41.580577000 +0900
++++ defines.inc.php	2024-12-19 13:44:20.889190000 +0900
+@@ -83,7 +83,7 @@
+ define('ELASTICSEARCH_RESPONSE_DOCUMENTS',		2);
+ 
+ define('ZBX_FONTPATH',				realpath('assets/fonts')); // where to search for font (GD > 2.0.18)
+-define('ZBX_GRAPH_FONT_NAME',		'DejaVuSans'); // font file name
++define('ZBX_GRAPH_FONT_NAME',		'ipagui'); // font file name
+ define('ZBX_GRAPH_LEGEND_HEIGHT',	120); // when graph height is less then this value, some legend will not show up
+ 
+ define('GRAPH_YAXIS_SIDE_DEFAULT', 0); // 0 - LEFT SIDE, 1 - RIGHT SIDE
+@@ -185,7 +185,7 @@
+ define('TRIGGERS_OPTION_ALL',				2);
+ define('TRIGGERS_OPTION_IN_PROBLEM',		3);
+ 
+-define('ZBX_FONT_NAME', 'DejaVuSans');
++define('ZBX_FONT_NAME', 'ipagp');
+ 
+ define('ZBX_AUTH_NONE',		-1);
+ define('ZBX_AUTH_INTERNAL',	0);
